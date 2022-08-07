@@ -12,5 +12,5 @@ hostname = sapi.beingfine.cn
 
 body = $response.body.replace(/granted":\d+/g, 'granted":1');
 body = body.replace(/expire_date":\d+/g, 'expire_date":17368358400');
-body = body.replace(/nickname":".+"/g, 'nickname":"Seven3in"');
+//body = body.replace(/nickname":".+"/g, 'nickname":"Seven3in"');
 $done({body});
